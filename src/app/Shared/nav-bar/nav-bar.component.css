@@ -1,0 +1,22 @@
+.store-logo{
+    width: 2.2rem;  
+}
+.nav-bar{
+    background-color: #090d32;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.home-icon{
+    color: white;
+    font-size: 36px;
+    height: 36px;
+    width: 44px;
+}
+.cart-icon{
+    color: white;
+    font-size: 32px;
+    height: 37px;
+    width: 44px;
+}

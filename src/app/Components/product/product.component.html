@@ -1,0 +1,24 @@
+<div fxLayout="Column">
+    <div >
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div  fxFlexOffset="4">
+        <mat-form-field fxFlexOffset="35">
+            <mat-icon matPrefix>search</mat-icon>
+            <input matInput type="search" placeholder="search here" class="search-input" (keyup)="applyFilter($event)">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-chip-listbox aria-label="Fish selection" fxFlexOffset="33">
+            <mat-chip-option *ngFor="let chip of chips" (click)="applyCategory(chip)">{{chip}}</mat-chip-option>
+            <!-- <mat-chip-option>Jacket</mat-chip-option>
+            <mat-chip-option color="accent" selected>T-shirt</mat-chip-option>
+            <mat-chip-option color="warn">Accrssories</mat-chip-option> -->
+          </mat-chip-listbox>
+    </div>
+ 
+        <app-product-card [ProductsDB] = "SearchProducts"  fxLayout="row wrap"   fxFlexOffset="8"></app-product-card>
+    
+</div>
+
+<!-- <img src="../../../assets/Images/Accessories/acces1.jpg" alt=""> -->

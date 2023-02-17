@@ -1,0 +1,35 @@
+.main-image{
+    width: 29%;
+    height: auto;
+    border-radius: 6px;
+}
+
+h1{
+    font-family: fangsong;
+    font-stretch: expanded;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 17px;
+    line-height: 91px;
+}
+p{
+    font-family: fangsong;
+    font-size: 18px;
+    font-weight: 600;
+}
+.logo-parent{
+    position: relative;
+}
+.logo-google-play{
+    width: 174px;
+    height: 52px;
+}
+
+.logo-App-Store{
+    width: 198px;
+    height: 130px;
+    position: absolute;
+    left: 183px;
+    top: -39px;
+}
+
